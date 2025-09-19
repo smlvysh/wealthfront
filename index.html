@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wealthfront</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header class="fixed top-0 left-0 w-full z-50 shadow-md">
+        <div class="container1 flex items-center justify-between py-[20px]">
+            <img src="./img/logo.svg" alt="">
+            <div class="hidden max-lg:block">
+           <i class="fa-solid fa-bars"></i></div>
+            <ul class="flex items-center justify-center gap-[30px] text-[#230b59] text-[18px] font-[400] max-lg:hidden">
+                <li><a href="#" class="hover:font-[500]">Invest</a></li>
+                <li><a href="#" class="hover:font-[500]">Cash</a></li>
+                <li><a href="#" class="hover:font-[500]">Borrow</a></li>
+                <li><a href="#" class="hover:font-[500]">Blog</a></li>
+            </ul>
+            <ul class="flex items-center justify-center gap-[20px] max-sm:flex-col max-sm:gap-[5px] ">
+                <li><button class=" w-[87px] h-[47px] font-[700] text-[16px] text-[#4840bb] border-[2px] border-[#4840bb] rounded-[6px] max-sm:w-[60px] max-sm:h-[30px] max-sm:text-[12px]">Log in</button></li>
+                <li><button class="w-[120px] h-[47px] font-[700] text-white bg-[#4840bb] rounded-[6px]  max-sm:w-[80px] max-sm:h-[30px] max-sm:text-[12px]" >Get started</button></li>
+            </ul>
+        </div>
+    </header>
 </body>
 </html>
