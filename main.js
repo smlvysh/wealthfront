@@ -1,58 +1,21 @@
-// let stuff=[true, "string", 22, {name:"Name"}]
-// stuff.forEach(value)((
-//     value.surname( "value")
-// ))
+let num= 10;
+let num2=20;
+let count;
+if(num2>num){
+    count=num2-num;
+}console.log(count);
 
-let arr_number =[1, 2, 3, 4, 5, 6, 7, 8];
-let arr=[true, "string", 22, {name:"Name"}]
-let person_arr=[
-    {
-        id: 1,
-        name:"aisha",
-        surname:"Ismailove",
-        job:"business",
-        price:"10000000000"
-    },
-    {
-        id: 2,
-        name:"jamola",
-        surname:"rakhimova",
-        job:"doctor",
-        price:"100000000",
-    
-    },
-{
-    id: 3,
-    name:"alan",
-    surname:"asanov",
-    job:"therapist",
-    price:"1000000000",
-},    
-]
 
-// arr.forEach((value, idx, arr)=>{
-//     console.log(value, "value");
-//     console.log(idx, "idx");
-//     console.log(arr, "arr");
-// })
-
-// Array.prototype.myForEach = function (cb){
-//     for (let i=0; i<this.length; i++){
-//         cb(this[i], i, this);
-//     }
-// };
-
-// arr.myForEach((value, idx, arr)=> {
-//     console.log(value, idx, arr);
-// });
-
-// Array.prototype.myMap = function(cb){
-//     let result= [];
-// }
-// for (let i=0; i<this.length; i++){
-//         result.push(callback[i], i, this);
-//     };
-
-// arr.myMap((value, idx, arr)=> {
-//     console.log(value, idx, arr);
-// });
+let arr = [6, -32, 87, -12, -76, 32, 866, -111]
+let pos=[0];
+let neg=[0];
+for(let i=0; i<=arr.length; i++){
+pos<arr;
+pos++
+}
+for(let i=0; i>arr.length; i++){
+    neg>arr;
+    neg++
+}
+console.log(pos)
+console.log(neg)
